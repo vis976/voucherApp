@@ -8,10 +8,13 @@
 }    
 .voucher_list{
     display: grid;
+    width: 800px;
+    height: 600px;
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     justify-content: space-evenly;
     gap: 20px;
+    border: 1px solid red;
 }
 .voucher{
     justify-content: center;
